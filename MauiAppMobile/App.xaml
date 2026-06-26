@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:MauiAppMobile.Converters"
+             x:Class="MauiAppMobile.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!-- Convertery -->
+            <converters:IsNotNullConverter x:Key="IsNotNullConverter"/>
+            <converters:IsNullConverter x:Key="IsNullConverter"/>
+            <converters:InvertedBoolConverter x:Key="InvertedBoolConverter"/>
+            <converters:StringIsNotEmptyConverter x:Key="StringIsNotEmptyConverter"/>
+
+            <!-- Kolory -->
+            <Color x:Key="Primary">#2196F3</Color>
+            <Color x:Key="Secondary">#FFC107</Color>
+            <Color x:Key="Tertiary">#4CAF50</Color>
+            <Color x:Key="Success">#4CAF50</Color>
+            <Color x:Key="Warning">#FF9800</Color>
+            <Color x:Key="Danger">#F44336</Color>
+            <Color x:Key="Info">#2196F3</Color>
+            <Color x:Key="Gray100">#F5F5F5</Color>
+            <Color x:Key="Gray200">#EEEEEE</Color>
+            <Color x:Key="Gray300">#E0E0E0</Color>
+            <Color x:Key="Gray600">#757575</Color>
+            <Color x:Key="Gray900">#212121</Color>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
